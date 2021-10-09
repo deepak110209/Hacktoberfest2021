@@ -1,1 +1,33 @@
-Hello World
+#include <stdio.h>
+#include<stdlib.h>
+
+void Normal_hello()
+{
+ // hello world
+   
+   printf("Hello  world\n");
+}
+
+void hello_without_printf_()
+{
+  //without using printf print hello world or string 
+    system("echo Hello world!");
+
+}
+
+void hello_without_semicolon()
+{
+    // print hello without using semiclon
+    if(printf("hello"))
+     {
+         
+     }
+
+}
+int main()
+{
+   Normal_hello();
+   hello_without_printf_();
+   hello_without_semicolon();
+        
+}
